@@ -1,0 +1,46 @@
+.history-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px; /* Increase the max-width for a wider container */
+  }
+  
+  .history-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #bd6f6f;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-list li {
+    display: inline-block; /* Display items inline */
+    font-size: 18px;
+    margin-right: 20px; /* Add margin to separate items */
+    color: #150202;
+  }
+  
+  .history-list li::before {
+     /* Add numbered bullets */
+    counter-increment: item;
+  }
+  
+  .back-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-btn:hover {
+    background-color: #0056b3;
+  }
+  

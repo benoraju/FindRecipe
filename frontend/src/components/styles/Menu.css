@@ -1,0 +1,131 @@
+.menu-container {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.site-name {
+  font-size: 28px;
+  font-family: 'Arial Black', sans-serif;
+  color: white;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+#profile-btn, #history-btn {
+  margin-left: 10px;
+  background-color: #149bf5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#profile-btn:hover, #history-btn:hover {
+  background-color: #2980b9;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#search-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#search-btn {
+  background-color: #50a8e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+  background-color: #219150;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.meal-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.meal-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-img img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.meal-details {
+  padding: 10px;
+}
+
+.meal-name {
+  color: black;
+}
+
+.recipe-title {
+  margin-top: 20px;
+}
+
+.recipe-ingredients {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-ingredients li {
+  margin-bottom: 5px;
+}
+
+.recipe-url a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.recipe-url a:hover {
+  text-decoration: underline;
+}
+
+.close-btn {
+  background-color: #e74c3c;
+}

@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/premium-vector/pizza-illustration_23-2147513031.jpg?w=740');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] ,input[type="email"]{
+  padding: 10px;
+  margin: 10px;
+  width: calc(50% - 20px); /* Set width for inputs */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db; /* Blue color */
+  color: #fff;
+  cursor: pointer;
+}
+
+.success-message {
+  color: green;
+}
+
+.success-icon {
+  color: green;
+  font-size: 24px;
+}
